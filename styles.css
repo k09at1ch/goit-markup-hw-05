@@ -106,6 +106,10 @@
     
 }
 
+.button-port{
+    margin-top: 76px;
+}
+
 .button1{
     margin-left: 427px;
     margin-right: 24px;
@@ -198,24 +202,11 @@
 
 .portfolio-ex1{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin-left: 156px;
     margin-bottom: 48px;
 }
-
-.portfolio-ex2{
-    display: flex;
-    list-style: none;
-    margin-left: 156px;
-    margin-bottom: 48px;
-}
-
-.portfolio-ex3{
-    display: flex;
-    list-style: none;
-    margin-left: 156px;
-}
-
 
 .example2{
     margin-left: 24px;
@@ -547,7 +538,7 @@ body{
 }
 
 .hidden-title{
-    opacity: 0;
+    display: none;
 }
 
 .button{
@@ -700,10 +691,11 @@ body{
     line-height: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    position: relative;
+    top: 120px;
+    text-align: center;
     margin-top: 120px;
     margin-bottom: 72px;
-    text-align: center;
-    
 }
 
 .our-team-1{
@@ -716,9 +708,9 @@ body{
     height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;  
-    margin-left: 156px;
-    margin-bottom: 120px;  
+    margin-left: 156px; 
     margin-right: 24px;
+    margin-top: 72px;
 }
 
 .our-team-2{
@@ -733,6 +725,7 @@ body{
     border-radius: 0px 0px 4px 4px; 
     margin-right: 24px;
     margin-bottom: 120px; 
+    margin-top: 72px;
 }
 
 .our-team-3{
@@ -747,6 +740,7 @@ body{
     border-radius: 0px 0px 4px 4px;
     margin-right: 24px;
     margin-bottom: 120px; 
+    margin-top: 72px;
 }
 
 .our-team-4{
@@ -760,12 +754,33 @@ body{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     margin-right: 156px;
-    margin-bottom: 430px;   
+    margin-bottom: 430px; 
+    margin-top: 72px; 
 }
 
 footer{
     background-color: var(--navy-blue);
+    width: 1440px;
+    height: 310px;
+    display: flex;
+    flex-direction:column; 
 }
+
+.last-a{
+    margin-top: 100px;
+    margin-left: 156px;
+}
+
+.web-logo{
+    color: #4D5AE5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
 .logo-footer{
     text-decoration: none;
     font-family: 'Raleway';
@@ -775,8 +790,13 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cloud);
+    display: inline;
+    text-decoration: none;
 }
 .text-footer{
     line-height: 1.5;
     color: var(--cornflower);
+    margin-left: 156px;
+    width: 264px;
+    height: 72px;
 }
