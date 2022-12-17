@@ -13,25 +13,19 @@
 
 .button-port{
     list-style: none;
-    display: flex;
 }
 
 .header-port{
-    display: flex;
     list-style: none;
     text-decoration: none;
-    top: 0;
-    left: 0;
 }
 
 .header1-port{
-    margin-left: 77px;
-    margin-top: 24px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     cursor: pointer;
@@ -45,9 +39,9 @@
 .header2-port{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     cursor: pointer;
@@ -61,9 +55,9 @@
 .header3-port{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     cursor: pointer;
@@ -79,7 +73,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     color: black;
 }
@@ -93,7 +87,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     color: black;
 }
@@ -102,45 +96,36 @@
     color: #4D5AE5;
 }
 
-.portfolio-ex{
-    
-}
-
-.button-port{
-    margin-top: 76px;
-}
-
 .button1{
-    margin-left: 427px;
-    margin-right: 24px;
-    width: 69px;
-    height: 48px;
     background: #F4F4FD;
+    font-family: 'Roboto';
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    width: 69px;
+    height: 48px;
 }
 
 .button2{
-    margin-right: 24px;
     width: 116px;
     height: 48px;
     background: #F4F4FD;
+    font-family: 'Roboto';
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
 
 .button3{
-    margin-right: 24px;
     width: 78px;
     height: 48px;
+    font-family: 'Roboto';
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
 
 .button4{
-    margin-right: 24px;
     width: 101px;
+    font-family: 'Roboto';
     height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
@@ -150,6 +135,7 @@
 .button5{
     width: 126px;
     height: 48px;
+    font-family: 'Roboto';
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;     
@@ -201,43 +187,29 @@
 }
 
 .portfolio-ex1{
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
-    margin-left: 156px;
-    margin-bottom: 48px;
 }
 
-.example2{
-    margin-left: 24px;
+.font-class-every1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.example3{
-    margin-left: 24px;
+.font-class-every2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
-
-.example5{
-    margin-left: 24px;
-}
-
-.example6{
-    margin-left: 24px;
-}
-
-.example8{
-    margin-left: 24px;
-}
-
-.example9{
-    margin-left: 24px;
-} 
 
 .footer-stud-port{ 
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.66666;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD; 
@@ -245,11 +217,9 @@
 }
 
 .web-footer-port{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;  
+    line-height: 1.66666;  
     display: flex;
     text-transform: uppercase;    
     color: #4D5AE5;  
@@ -257,21 +227,15 @@
 }
 
 .footer-last-text-port{
-    width: 264px;
-    height: 72px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
 
 .footer-port{
     background-color: #2E2F42;
-    width: 1440px;
-    height: 310px;
 }
 
 
@@ -279,105 +243,73 @@
 
 body{
     color: black;
-    width: 1440px;
+    font-family: 'sans-serif';
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    margin-top: 33px;
+    margin-left: 77px;
 }
 
 .header-bg{
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    display: flex;
+    margin-bottom: 0;
     width: 1440px;
     height: 72px;
-    margin-top: 0;
-    margin-left: 0;
 }
 
 .web1{
     text-decoration: none;  
-    width: 71px;
-    height: 22px; 
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    letter-spacing: 0.03em;
+    line-height: 1.166666666666666;
     text-transform: uppercase;
     color: #2E2F42;  
-}
-
-.web-foot{
-    width: 44px;
-    height: 22px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;  
-    display: flex;
-    text-transform: uppercase;    
-    color: #4D5AE5;  
-    text-decoration: none; 
     margin-left: 156px;
 }
 
-.top{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 1440px;
-    height: 72px;
-    margin-right: 77px;
+.nig{
+    font-family: 'Raleway';
 }
 
-.h1-main{
-    width: 1440px;
-    height: 603px;
-    background: #2E2F42;
-    margin-top: 0;
+/* line-height/font-size */
+
+.web-foot{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.1666666666;  
+    text-transform: uppercase;    
+    color: #4D5AE5;  
+    text-decoration: none; 
+    font-family: 'Raleway';
 }
 
 .general{
-    width: 71px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 800;
     cursor: pointer;
     background-color: white;
     text-decoration: none;
-    display: flex;  
 }
 
 .header{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
     list-style: none;
     text-decoration: none;
 }
 
-.li-index{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
 .header1{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
-    position: absolute;
-    left: 348px;
-    top: 35px;
+    font-family: 'Roboto';
+    margin-right: 40px;
 }
 
 .header1:hover{
@@ -385,18 +317,15 @@ body{
 }
 
 .header2{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
-    position: absolute;
-    top: 35px;
-    left: 436px;
+    font-family: 'Roboto';
+    margin-right: 40px;
 }
 
 .header2:hover{
@@ -404,18 +333,15 @@ body{
 }
 
 .header3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
-    position: absolute;
-    top: 35px;
-    left: 542px;
+    font-family: 'Roboto';
+    margin-right: 331px;
 }
 
 .header3:hover{
@@ -423,17 +349,12 @@ body{
 }
 
 .email{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     color: black;
-    text-decoration: none;
-    position: absolute;
-    top: 35px;
-    left: 940px;
+    margin-right: 40px;
 }
 
 .email:hover{
@@ -441,58 +362,35 @@ body{
 }
 
 .number{
-    width: 151px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     color: black;
-    text-decoration: none; 
-    position: absolute;
-    top: 35px;
-    left: 1133px;
 }
 
 .number:hover{
     color: #4D5AE5;
 }
-
-
-.h1{
+.container-one{
+    width: 1128px;  
+}
+.zagolovok{
     color: white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07142857em;  
     font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 56px;            
     width: 492px;
-    height: 120px; 
+    height: 120px;
+    margin-top: 0px;
+}
+
+.h1-main{
+    background: #2E2F42;
     margin-top: 0;
-    position: relative;
-    top: 192px;
-    left: 474px;
-}
-
-.strategy{
-    margin-right: 24px;
-    margin-top: 120px;
-}
-
-.Punctuality{
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 120px;
-}
-
-.Diligence{
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 120px;
-}
-
-.technologies{
-    margin-left: 24px;
-    margin-top: 120px;
+    height: 603px;
+    align-items: center;
 }
 
 .hidden{
@@ -500,30 +398,17 @@ body{
 }
 
 .button{
-    gap: 10px;
     width: 170px;
     height: 51px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    align-items: center;
-    font-family: 'Roboto';
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1875;
     color: white;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 635px;
-    top: 432px;
+    font-family: 'Roboto';
 }
 
 .web{
-    width: 44px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 800;
     cursor: pointer;
     background-color: white;
@@ -559,26 +444,26 @@ body{
     display: flex;
 }
 
+.strategy{
+    padding-right: 24px;
+    padding-left: 56px;
+    margin-top: 120px;
+}
+
 .list-style-non{
     list-style: none;
     display: flex;
 }
 
 .font-class-every1{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .font-class-every2{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0.02em;
 }
 
@@ -588,72 +473,52 @@ body{
 }
 
 .last-text{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.font-class-every3{
-    top: 1902px; 
-    font-family: 'Roboto'; 
-    font-style: normal; 
+.font-class-every3{ 
     font-weight: 400; 
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 
 .h3{
-    width: 264px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+    line-height: 1.5;
+    font-family: 'Roboto';
 }
 
 .descrip{
-    width: 264px;
-    height: 72px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
-    text-align: center;
-}
-
-.what-doing{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 40px;
-    width: 322px;
-    height: 40px;
-    margin-top: 120px;
-    margin-bottom: 72px;
-    margin-left: 559px;
 }
 
 .list3{
-    list-style: none;
-    display: inline-flex;
+    list-style: none    ;
 }
+
+.what-doing{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    list-style: none;
+    font-family: 'Roboto';
+}
+
 .what-doing-ex1{
     box-sizing: border-box;
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
     background-blend-mode: soft-light, normal;    
     border: 1px solid #E7E9FC;
     list-style: none;
-    margin-left: 156px;
-    margin-right: 24px;
 }
 
 .what-doing-ex2{
@@ -662,8 +527,6 @@ body{
     background-blend-mode: soft-light, normal;    
     border: 1px solid #E7E9FC;
     list-style: none;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 
 .what-doing-ex3{
@@ -672,131 +535,76 @@ body{
     background-blend-mode: soft-light, normal;
     border: 1px solid #E7E9FC;
     list-style: none;
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-.our-team-bg{
-    width: 1440px;
-    height: 732px;
-    background-color: #F4F4FD;
-    padding: 0;
 }
 
 .our-team{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1111;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    position: relative;
-    top: 120px;
-    text-align: center;
-    margin-top: 120px;
-    margin-bottom: 72px;
+    list-style: none;
+    font-family: 'Roboto';
 }
 
 .our-team-1{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;  
-    margin-left: 156px; 
-    margin-right: 24px;
-    margin-top: 72px;
+    background-color: #fff;
+    font-family: 'Roboto';
 }
 
 .our-team-2{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px; 
-    margin-right: 24px;
-    margin-bottom: 120px; 
-    margin-top: 72px;
+    background-color: #fff;
+    font-family: 'Roboto';
 }
 
 .our-team-3{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 24px;
-    margin-bottom: 120px; 
-    margin-top: 72px;
+    background-color: #fff;
+    font-family: 'Roboto';
 }
 
 .our-team-4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 156px;
-    margin-bottom: 430px; 
-    margin-top: 72px; 
+    font-family: 'Roboto';
+    background-color: #fff;
+}
+
+.our-team-bg{
+    background-color: #F4F4FD;
 }
 
 footer{
     background-color: var(--navy-blue);
-    width: 1440px;
-    height: 310px;
-    display: flex;
-    flex-direction:column; 
-}
-
-.last-a{
-    margin-top: 100px;
-    margin-left: 156px;
 }
 
 .web-logo{
     color: #4D5AE5;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    text-decoration: none;
+    line-height: 1.16666666666;
+    font-family: 'Raleway';
 }
 
 .logo-footer{
     text-decoration: none;
-    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.166;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cloud);
-    display: inline;
-    text-decoration: none;
+    font-family: 'Raleway';
 }
 .text-footer{
     line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
     color: var(--cornflower);
-    margin-left: 156px;
-    width: 264px;
-    height: 72px;
+    font-family: 'Roboto';
 }
