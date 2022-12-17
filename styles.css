@@ -10,6 +10,10 @@
 
 
 /* portfolio */
+.body{
+    margin: auto;
+    max-width: 1440px;
+}
 
 .button-port{
     list-style: none;
@@ -96,6 +100,14 @@
     color: #4D5AE5;
 }
 
+.button-port{
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    gap: 24px;
+    padding-bottom: 72px;
+}
+
 .button1{
     background: #F4F4FD;
     font-family: 'Roboto';
@@ -103,6 +115,7 @@
     border-radius: 4px;
     width: 69px;
     height: 48px;
+    cursor: pointer; 
 }
 
 .button2{
@@ -112,6 +125,7 @@
     font-family: 'Roboto';
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer; 
 }
 
 .button3{
@@ -121,6 +135,7 @@
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer; 
 }
 
 .button4{
@@ -130,6 +145,7 @@
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer; 
 }
 
 .button5{
@@ -138,7 +154,8 @@
     font-family: 'Roboto';
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;     
+    border-radius: 4px;   
+    cursor: pointer; 
 }
 
 .button1:hover{
@@ -166,28 +183,34 @@
     background-color: #4D5AE5;
 }
 
-.button1{
-    cursor: pointer
-}
-
-.button2{
-    cursor: pointer;
-}
-
-.button3{
-    cursor: pointer
-}
-
-.button4{
-    cursor: pointer
-}
-
-.button5{
-    cursor: pointer
-}
-
 .portfolio-ex1{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 156px;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
+.example1{
+    background: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    padding-bottom: 48px;
+}
+
+.example2{
+    background: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    padding-bottom: 48px;
+}
+
+.example3{
+    background: #FFFFFF;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    padding-bottom: 48px;
 }
 
 .font-class-every1{
@@ -206,44 +229,12 @@
     line-height: 1.5;
 }
 
-.footer-stud-port{ 
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.66666;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD; 
-    text-decoration: none; 
-}
-
-.web-footer-port{
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.66666;  
-    display: flex;
-    text-transform: uppercase;    
-    color: #4D5AE5;  
-    text-decoration: none;  
-}
-
-.footer-last-text-port{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
-}
-
-.footer-port{
-    background-color: #2E2F42;
-}
-
-
 /* index */ 
 
 body{
     color: black;
     font-family: 'sans-serif';
+    margin: auto;
 }
 
 nav{
@@ -373,7 +364,13 @@ nav{
     color: #4D5AE5;
 }
 .container-one{
-    width: 1128px;  
+    width: 1128px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .zagolovok{
     color: white;
@@ -388,13 +385,13 @@ nav{
 
 .h1-main{
     background: #2E2F42;
-    margin-top: 0;
-    height: 603px;
-    align-items: center;
+    padding-top: 192px;
+    padding-bottom: 208px;
 }
 
 .hidden{
-    display: none;
+    margin-top: 0px;
+    visibility: hidden;
 }
 
 .button{
@@ -445,14 +442,11 @@ nav{
 }
 
 .strategy{
-    padding-right: 24px;
-    padding-left: 56px;
-    margin-top: 120px;
-}
-
-.list-style-non{
-    list-style: none;
-    display: flex;
+    margin-right: 24px;
+    margin-left: 56px;
+    justify-content: center;
+    margin-top: 47px;
+    padding-bottom: 120px;
 }
 
 .font-class-every1{
@@ -505,37 +499,54 @@ nav{
     list-style: none    ;
 }
 
+.section-what-doing{
+    margin-bottom: 120px;
+}
+
 .what-doing{
     font-weight: 500;
     font-size: 36px;
     line-height: 40px;
     list-style: none;
     font-family: 'Roboto';
+    padding-bottom: 72px;
+    text-align: center;
+}
+
+.list3{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .what-doing-ex1{
-    box-sizing: border-box;
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
-    background-blend-mode: soft-light, normal;    
-    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 300px;
     list-style: none;
+    margin: 0px;
 }
 
 .what-doing-ex2{
-    box-sizing: border-box;
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
-    background-blend-mode: soft-light, normal;    
-    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 300px;
     list-style: none;
+    margin: 0px;
 }
 
 .what-doing-ex3{
-    box-sizing: border-box;
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
-    background-blend-mode: soft-light, normal;
-    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 300px;
     list-style: none;
+    margin: 0px;
 }
+
+.list-style-non{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+}
+
 
 .our-team{
     font-weight: 700;
@@ -545,6 +556,9 @@ nav{
     text-transform: capitalize;
     list-style: none;
     font-family: 'Roboto';
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .our-team-1{
@@ -552,6 +566,7 @@ nav{
     border-radius: 0px 0px 4px 4px;  
     background-color: #fff;
     font-family: 'Roboto';
+    text-align: center;
 }
 
 .our-team-2{
@@ -559,6 +574,7 @@ nav{
     border-radius: 0px 0px 4px 4px; 
     background-color: #fff;
     font-family: 'Roboto';
+    text-align: center;
 }
 
 .our-team-3{
@@ -566,6 +582,7 @@ nav{
     border-radius: 0px 0px 4px 4px;
     background-color: #fff;
     font-family: 'Roboto';
+    text-align: center;
 }
 
 .our-team-4{
@@ -573,14 +590,22 @@ nav{
     border-radius: 0px 0px 4px 4px;
     font-family: 'Roboto';
     background-color: #fff;
+    text-align: center;
 }
 
 .our-team-bg{
     background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
 }
 
 footer{
     background-color: var(--navy-blue);
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 250px;
+    padding-top: 100px;
 }
 
 .web-logo{
@@ -589,6 +614,7 @@ footer{
     font-size: 18px;
     line-height: 1.16666666666;
     font-family: 'Raleway';
+    padding-left: 156px;
 }
 
 .logo-footer{
@@ -607,4 +633,7 @@ footer{
     font-size: 16px;
     color: var(--cornflower);
     font-family: 'Roboto';
+    width: 264px;
+    height: 72px;
+    padding-left: 156px;    
 }
