@@ -19,84 +19,7 @@
     list-style: none;
 }
 
-.header-port{
-    list-style: none;
-    text-decoration: none;
-}
-
-.header1-port{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.header1-port:hover{
-    color: #4D5AE5;
-}
-
-.header2-port{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.header2-port:hover{
-    color: #4D5AE5;
-}
-
-.header3-port{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .header3-port:hover{
-    color: #4D5AE5;
-}
-
-.email-port{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
-    color: black;
-}
-
-.email-port:hover{
-    color: #4D5AE5;
-}
-
-.number-port{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
-    color: black;
-}
-
-.number-port:hover{
     color: #4D5AE5;
 }
 
@@ -106,56 +29,53 @@
     padding-top: 96px;
     gap: 24px;
     padding-bottom: 72px;
+    font-family: 'Roboto';
 }
 
 .button1{
     background: #F4F4FD;
-    font-family: 'Roboto';
-    border: 1px solid #E7E9FC;
     border-radius: 4px;
     width: 69px;
     height: 48px;
     cursor: pointer; 
+    box-sizing: border-box;
+    border: 0px;
 }
 
 .button2{
     width: 116px;
     height: 48px;
     background: #F4F4FD;
-    font-family: 'Roboto';
-    border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer; 
+    border: 0px;
 }
 
 .button3{
     width: 78px;
     height: 48px;
-    font-family: 'Roboto';
     background: #F4F4FD;
-    border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer; 
+    border: 0px;
 }
 
 .button4{
     width: 101px;
-    font-family: 'Roboto';
     height: 48px;
     background: #F4F4FD;
-    border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer; 
+    border: 0px;
 }
 
 .button5{
     width: 126px;
     height: 48px;
-    font-family: 'Roboto';
     background: #F4F4FD;
-    border: 1px solid #E7E9FC;
     border-radius: 4px;   
     cursor: pointer; 
+    border: 0px;
 }
 
 .button1:hover{
@@ -187,8 +107,9 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 156px;
-    gap: 24px;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
     padding-bottom: 120px;
 }
 
@@ -219,6 +140,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    padding-left: 16px;
+    padding-top: 12px;
 }
 
 .font-class-every2{
@@ -227,6 +150,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    padding-left: 16px;
+    padding-top: 8px;
+    margin-top: 0;
 }
 
 /* index */ 
@@ -235,12 +161,12 @@ body{
     color: black;
     font-family: 'sans-serif';
     margin: auto;
+    text-decoration: none;
 }
 
 nav{
     list-style: none;
     display: flex;
-    margin-top: 33px;
     margin-left: 77px;
 }
 
@@ -249,33 +175,25 @@ nav{
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
     display: flex;
     margin-bottom: 0;
-    width: 1440px;
-    height: 72px;
 }
 
-.web1{
-    text-decoration: none;  
+.top{
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px; 
     font-weight: 800;
-    font-size: 18px;
-    line-height: 1.166666666666666;
-    text-transform: uppercase;
-    color: #2E2F42;  
+    font-size: 18px; 
     margin-left: 156px;
+    display: block;
+    padding-top: 24px;
 }
 
 .nig{
     font-family: 'Raleway';
 }
 
-/* line-height/font-size */
-
-.web-foot{
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.1666666666;  
-    text-transform: uppercase;    
+.web-foot{ 
     color: #4D5AE5;  
-    text-decoration: none; 
     font-family: 'Raleway';
 }
 
@@ -283,11 +201,6 @@ nav{
     font-weight: 800;
     cursor: pointer;
     background-color: white;
-    text-decoration: none;
-}
-
-.header{
-    list-style: none;
     text-decoration: none;
 }
 
@@ -301,6 +214,9 @@ nav{
     text-decoration: none;
     font-family: 'Roboto';
     margin-right: 40px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header1:hover{
@@ -317,6 +233,9 @@ nav{
     text-decoration: none;
     font-family: 'Roboto';
     margin-right: 40px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header2:hover{
@@ -332,7 +251,9 @@ nav{
     cursor: pointer;
     text-decoration: none;
     font-family: 'Roboto';
-    margin-right: 331px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header3:hover{
@@ -346,6 +267,10 @@ nav{
     text-decoration: none;
     color: black;
     margin-right: 40px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 331px;
 }
 
 .email:hover{
@@ -358,16 +283,16 @@ nav{
     line-height: 1.5;
     text-decoration: none;
     color: black;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .number:hover{
     color: #4D5AE5;
 }
 .container-one{
-    width: 1128px;
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
 
@@ -379,8 +304,8 @@ nav{
     line-height: 1.07142857em;  
     font-family: 'Roboto';
     width: 492px;
-    height: 120px;
     margin-top: 0px;
+    margin: 0 auto;
 }
 
 .h1-main{
@@ -403,6 +328,8 @@ nav{
     line-height: 1.1875;
     color: white;
     font-family: 'Roboto';
+    margin-top: 48px;
+    margin-left: 470px;
 }
 
 .web{
@@ -439,12 +366,14 @@ nav{
 .list-style-none{
     list-style: none;
     display: flex;
+    gap: 24px;
 }
 
 .strategy{
-    margin-right: 24px;
-    margin-left: 56px;
-    justify-content: center;
+    flex-basis: calc( (100% - 3 * 24px) / 4);
+}
+
+.container-two{
     margin-top: 47px;
     padding-bottom: 120px;
 }
@@ -496,7 +425,7 @@ nav{
 }
 
 .list3{
-    list-style: none    ;
+    list-style: none;
 }
 
 .section-what-doing{
@@ -509,6 +438,7 @@ nav{
     line-height: 40px;
     list-style: none;
     font-family: 'Roboto';
+    padding-top: 0px;
     padding-bottom: 72px;
     text-align: center;
 }
@@ -522,22 +452,16 @@ nav{
 .what-doing-ex1{
     width: 360px;
     height: 300px;
-    list-style: none;
-    margin: 0px;
 }
 
 .what-doing-ex2{
     width: 360px;
     height: 300px;
-    list-style: none;
-    margin: 0px;
 }
 
 .what-doing-ex3{
     width: 360px;
     height: 300px;
-    list-style: none;
-    margin: 0px;
 }
 
 .list-style-non{
@@ -559,6 +483,24 @@ nav{
     text-align: center;
     padding-top: 120px;
     padding-bottom: 72px;
+}
+
+.descrip2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    margin-top: 8px;
+}
+
+.h24{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Roboto';
+    margin-bottom: 0px;
+    margin-top: 32px;
 }
 
 .our-team-1{
@@ -601,8 +543,6 @@ nav{
 
 footer{
     background-color: var(--navy-blue);
-    display: flex;
-    flex-direction: column;
     width: 1440px;
     height: 250px;
     padding-top: 100px;
