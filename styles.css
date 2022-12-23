@@ -8,12 +8,7 @@
     --cloud:#f4f4fd;
 }           
 
-
 /* portfolio */
-.body{
-    margin: auto;
-    max-width: 1440px;
-}
 
 .button-port{
     list-style: none;
@@ -291,12 +286,7 @@ nav{
 .number:hover{
     color: #4D5AE5;
 }
-.container-one{
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
 
-}
 .zagolovok{
     color: white;
     font-weight: 700;
@@ -328,8 +318,8 @@ nav{
     line-height: 1.1875;
     color: white;
     font-family: 'Roboto';
-    margin-top: 48px;
-    margin-left: 470px;
+    display: block;
+    margin: 48px auto 0;
 }
 
 .web{
@@ -369,13 +359,13 @@ nav{
     gap: 24px;
 }
 
-.strategy{
-    flex-basis: calc( (100% - 3 * 24px) / 4);
-}
-
-.container-two{
+.section-2{
     margin-top: 47px;
     padding-bottom: 120px;
+}
+
+.strategy{
+    flex-basis: calc( (100% - 3 * 24px) / 4);
 }
 
 .font-class-every1{
@@ -409,7 +399,7 @@ nav{
     letter-spacing: 0.02em;
 }
 
-.h3{
+.i-love-nigas{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
@@ -438,6 +428,7 @@ nav{
     line-height: 40px;
     list-style: none;
     font-family: 'Roboto';
+    margin: 0px;
     padding-top: 0px;
     padding-bottom: 72px;
     text-align: center;
@@ -447,6 +438,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin: 0px;    
 }
 
 .what-doing-ex1{
@@ -537,15 +529,11 @@ nav{
 
 .our-team-bg{
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
 }
 
 footer{
     background-color: var(--navy-blue);
-    width: 1440px;
-    height: 250px;
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .web-logo{
@@ -573,7 +561,8 @@ footer{
     font-size: 16px;
     color: var(--cornflower);
     font-family: 'Roboto';
-    width: 264px;
-    height: 72px;
-    padding-left: 156px;    
+    max-height: 72px;
+    padding-left: 156px;   
+    max-width: 500px;
+
 }
