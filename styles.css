@@ -166,11 +166,12 @@ body{
 .container{
     margin: 0 auto;
     padding: 0 15;
+    width: 1158px;
 }
 
 .container1{
-    margin: 0 auto;
-    padding-top: 24px;
+    display: flex;
+    width: 1440px;
 }
 
 .header-bg{
@@ -210,12 +211,17 @@ ul{
 .general{
     list-style: none;
     column-gap: 40px;
+    padding-top: 24px;
+    margin-left: 77px;
 }
 
 .general2{
     margin-bottom: 0;
     column-gap: 40px;
     list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 331px;
 }
 
 .header1{
@@ -224,6 +230,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     color: #2E2F42;
+    cursor: pointer;
 }
 
 .header2{
@@ -232,6 +239,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     color: #2E2F42;
+    cursor: pointer;
 }
 
 .header3{
@@ -240,6 +248,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     color: #2E2F42;
+    cursor: pointer;
 }
 
 .email{
@@ -248,6 +257,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     color: #434455;
+    cursor: pointer;
 }
 
 .number{
@@ -256,6 +266,11 @@ ul{
     font-style: normal;
     font-weight: 400;
     color: #434455;
+    cursor: pointer;
+}
+
+li>a:hover{
+    color: #4d5ae5;
 }
 
 .zagolovok{
@@ -461,6 +476,7 @@ ul{
     letter-spacing: 0.02em;
     font-family: 'Roboto';
     margin-top: 8px;
+    padding-bottom: 32px;
 }
 
 .h24{
