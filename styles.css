@@ -8,6 +8,10 @@
     --cloud:#f4f4fd;
 }           
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* portfolio */
 
 .button-port{
@@ -160,19 +164,25 @@ body{
 }
 
 .container{
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15;
 }
 
-nav{
-    list-style: none;
-    display: flex;
-    margin-left: 77px;
+.container1{
+    margin: 0 auto;
+    padding-top: 24px;
 }
 
 .header-bg{
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .top{
@@ -180,7 +190,6 @@ nav{
     padding-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
-    display: flex;
     padding-top: 24px;
 }
 
@@ -200,20 +209,13 @@ nav{
 
 .general{
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     column-gap: 40px;
-    padding-left: 348px;
 }
 
 .general2{
     margin-bottom: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     column-gap: 40px;
+    list-style: none;
 }
 
 .header1{
