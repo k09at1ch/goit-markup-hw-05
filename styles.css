@@ -34,66 +34,18 @@
 .button1{
     background: #F4F4FD;
     border-radius: 4px;
-    width: 69px;
     height: 48px;
     cursor: pointer; 
     box-sizing: border-box;
     border: 0px;
-}
-
-.button2{
-    width: 116px;
-    height: 48px;
-    background: #F4F4FD;
-    border-radius: 4px;
-    cursor: pointer; 
-    border: 0px;
-}
-
-.button3{
-    width: 78px;
-    height: 48px;
-    background: #F4F4FD;
-    border-radius: 4px;
-    cursor: pointer; 
-    border: 0px;
-}
-
-.button4{
-    width: 101px;
-    height: 48px;
-    background: #F4F4FD;
-    border-radius: 4px;
-    cursor: pointer; 
-    border: 0px;
-}
-
-.button5{
-    width: 126px;
-    height: 48px;
-    background: #F4F4FD;
-    border-radius: 4px;   
-    cursor: pointer; 
-    border: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 24px 12px 24px;
+    width: auto;
 }
 
 .button1:hover{
-    color: chartreuse;
-}
-
-.button2:hover{
-    color: chartreuse;
-}
-
-.button3:hover{
-    color: chartreuse;
-}
-
-.button4:hover{
-    color: chartreuse;
-}
-
-.button5:hover{
     color: chartreuse;
 }
 
@@ -104,7 +56,6 @@
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
 }
 
 .example1{
@@ -113,8 +64,14 @@
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.img-port{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .mini-container-port{
-    padding: 32px 0 32px 0;
+    padding: 32px 16px;
 }
 
 .font-class-every1{
@@ -122,7 +79,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -131,7 +87,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    padding-left: 16px;
 }
 
 /* index */ 
@@ -201,6 +156,7 @@ ul{
     display: block;
     padding: 24px 0;
     color: #000;
+    font-weight: 500;
 }
 
 .h-list-2{
@@ -433,7 +389,7 @@ li>a:hover{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
 }
 
 .our-team-ex{
