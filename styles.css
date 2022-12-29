@@ -179,9 +179,12 @@ li>a:hover{
 }
 
 .main-section-1{
-    background: #2E2F42;
+    background-image: url('images/office.jpg');
     padding-top: 192px;
     padding-bottom: 208px;
+    width: 1440px;
+    height: 603px;  
+    margin: 0px auto;
 }
 
 .visually-hidden {
