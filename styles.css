@@ -5,11 +5,12 @@
     --slate:#434455;
     --light-slate:#8e8f99;
     --cornflower: #E7E9FC;
-    --cloud:#f4f4fd;
+    --cloud:#F4F4FD;
     --clear: #fff;
 }           
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -19,24 +20,20 @@
     padding: 96px 0 120px 0;
 }
 
-.button-port{
-    list-style: none;
-}
-
-.button-port{
+.buttons-port-list{
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
     font-family: 'Roboto';
+    list-style: none;
 }
 
-.button1{
-    background: #F4F4FD;
+.button-port{
+    background-color: #F4F4FD;
     border-radius: 4px;
     height: 48px;
     cursor: pointer; 
-    box-sizing: border-box;
     border: 0px;
     font-weight: 600;
     font-size: 16px;
@@ -45,7 +42,7 @@
     width: auto;
 }
 
-.button1:hover{
+.button-port:hover{
     color: chartreuse;
 }
 
@@ -58,10 +55,10 @@
     row-gap: 48px;
 }
 
-.example1{
+.projects{
     background: #FFFFFF;
-    border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: 360px;
 }
 
 .img-port{
@@ -132,9 +129,8 @@ ul{
 }
 
 .nig{
-    color: #2E2F42;
-    font-family: 'Raleway';
-    font-style: normal;
+    color: ( --navy-blue);
+    font-family: 'Raleway'; 
     font-weight: 800;
 }
 
@@ -151,7 +147,7 @@ ul{
     margin-left: auto;
 }
 
-.header1{
+.nav-sites{
     text-decoration: none;
     display: block;
     padding: 24px 0;
@@ -159,7 +155,7 @@ ul{
     font-weight: 500;
 }
 
-.h-list-2{
+.contacts{
     text-decoration: none;
     color: #434455;
     display: block;
@@ -170,7 +166,7 @@ li>a:hover{
     color: #4d5ae5;
 }
 
-.zagolovok{
+.general-title{
     color: white;
     font-weight: 700;
     font-size: 56px;
@@ -182,7 +178,7 @@ li>a:hover{
     text-align: center;
 }
 
-.h1-main{
+.main-section-1{
     background: #2E2F42;
     padding-top: 192px;
     padding-bottom: 208px;
@@ -225,12 +221,13 @@ li>a:hover{
     color: #4D5AE5;
 }
 
-.hover-links{
-    text-transform: none;
+.hover-links:focus{
+    color: #4D5AE5;
 }
 
-.hidden-title{
-    display: none;
+
+.hover-links{
+    text-transform: none;
 }
 
 .button{
@@ -246,7 +243,7 @@ li>a:hover{
     list-style: none;
 }
 
-.list-style-none{
+.our-tasks{
     list-style: none;
     display: flex;
     margin: 0 auto;
@@ -261,14 +258,13 @@ li>a:hover{
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.font-class-every1{
+.name-of-product{
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 0.02em;
 }
 
-.font-class-every2{
-    font-weight: 400;
+.what-is-it{
     font-size: 16px;
     letter-spacing: 0.02em;
 }
@@ -282,13 +278,6 @@ li>a:hover{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.font-class-every3{ 
-    font-weight: 400; 
-    font-size: 16px;
-    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 
@@ -353,7 +342,7 @@ li>a:hover{
     height: auto;
 }
 
-.list-style-non{
+.list-of-our-people{
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
@@ -377,7 +366,7 @@ li>a:hover{
     padding: 30px 16px 30px 16px;
 }
 
-.descrip2{
+.job{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
@@ -385,7 +374,7 @@ li>a:hover{
     font-family: 'Roboto';
 }
 
-.h24{
+.name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
