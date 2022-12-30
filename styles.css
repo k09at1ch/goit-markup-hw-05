@@ -13,6 +13,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
 }
 /* portfolio */
 
@@ -180,7 +181,7 @@ li>a:hover{
 
 .main-section-1{
     background-image: url('images/office.jpg');
-    padding-top: 192px;
+    padding-top: 192px; 
     padding-bottom: 208px;
     width: 1440px;
     height: 603px;  
@@ -212,6 +213,34 @@ li>a:hover{
     display: block;
     margin: 48px auto 0;
     border: 0;
+}
+
+.about-us{
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+}
+
+.about-us-antena{
+    padding: 24px 102.14px;
+    margin: 120px 20px 8px 0;
+}
+
+.about-us-clock{
+    padding: 24px 101.41px;
+    margin: 120px 20px 8px 0;
+}
+
+.about-us-laptop{
+    padding: 31.5px 100px 31.42px 100px;
+    margin: 120px 20px 8px 0;
+}
+
+.about-us-astronaut{
+    padding: 24px 100px;
+    margin-right: 0;
+    margin-top: 120px;
+    margin-bottom: 8px;
 }
 
 .web{
@@ -251,10 +280,11 @@ li>a:hover{
     display: flex;
     margin: 0 auto;
     gap: 24px;
+    padding-top: 0px;
 }
 
-.section-2{
-    padding: 120px 0;
+.section-3{
+    padding: 0px 0px 120px 0px;
 }
 
 .strategy{
@@ -366,7 +396,7 @@ li>a:hover{
 }
 
 .our-team-container{
-    padding: 30px 16px 30px 16px;
+    padding: 32px 16px 36px 16px;
 }
 
 .job{
@@ -375,6 +405,19 @@ li>a:hover{
     line-height: 1.5em;
     letter-spacing: 0.02em;
     font-family: 'Roboto';
+}
+
+.our-team-socials{
+    margin-top: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    fill: #4D5AE5;
+}
+
+.our-team-socials1{
+    padding: 0;
+    cursor: pointer;
+    fill: #4D5AE5;
 }
 
 .name{
@@ -402,6 +445,53 @@ li>a:hover{
     max-width: 100%;
     height: auto;
 }
+
+.customers{
+    margin: 120px auto 72px auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;;
+}
+
+.logo{
+    box-sizing: border-box;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 168px;
+    height: 88px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+    fill: #AFB1B8;
+    cursor: pointer;
+}
+
+.logo:hover{
+    fill: #4D5AE5;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+}
+
+.logo-last:hover{
+    fill: #4D5AE5;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+}
+
+.logo-last{
+    box-sizing: border-box;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 168px;
+    height: 88px;
+    margin-bottom: 120px;
+    fill: #8E8F99;
+}
+
+/* footer */
 
 footer{
     background-color: var(--navy-blue);
@@ -439,4 +529,25 @@ footer{
     max-height: 72px; 
     width: 264px;
     margin-top: 16px;
+}
+
+.social-media-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.socials-container{
+}
+
+.our-team-socials-footer{
+    fill: rgba(255, 255, 255, 0.1);
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+.our-team-socials-footer:hover{
+    fill: #31D0AA;
+    cursor: pointer;
 }
