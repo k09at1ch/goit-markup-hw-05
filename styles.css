@@ -474,12 +474,6 @@ li>a:hover{
     padding: 120px 0;
 }
 
-.i-d-k{
-    width: 168px;
-    height: 88px;
-    margin-right: 20px;
-}
-
 .customers{
     margin: 0 auto 72px auto;
     font-weight: 700;
@@ -495,38 +489,41 @@ li>a:hover{
     flex-direction: row;
 }
 
-.logo{
+.i-d-k{
+    width: 168px;
+    height: 88px;
+    margin-right: 20px;
     box-sizing: border-box;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    padding: 16px 32px;
-    width: 168px;
-    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
     fill: #AFB1B8;
     cursor: pointer;
 }
 
 .logo:hover{
     fill: #4D5AE5;
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;
 }
 
-.logo-last:hover{
+.logo:focus{
     fill: #4D5AE5;
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;
 }
 
-.logo-last{
-    box-sizing: border-box;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 168px;
-    height: 88px;
-    fill: #8E8F99;
+.i-d-k:hover{
+    border: 1px solid #4D5AE5;
 }
+
+.i-d-k{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* footer */
 
