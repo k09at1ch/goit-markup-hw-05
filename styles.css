@@ -512,22 +512,10 @@ li>a:hover{
     border-radius: 4px;
 }
 
-.logo:focus{
-    fill: #4D5AE5;
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;
-}
-
 .logo-last:hover{
     fill: #4D5AE5;
     border: 1px solid #4D5AE5;
     border-radius: 4px;
-}
-
-.logo-last:focus{
-    fill: #4D5AE5;
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;     
 }
 
 .logo-last{
