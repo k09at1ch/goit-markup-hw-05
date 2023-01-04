@@ -41,13 +41,14 @@
     line-height: 24px;
     padding: 12px 24px 12px 24px;
     width: auto;
+    color: #4D5AE5;
 }
 
 .button-port:hover{
     background: #4D5AE5;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    color: chartreuse;
+    color: #fff;
 }
 
 .button-port:focus{
@@ -424,19 +425,23 @@ li>a:hover{
     width: 40px;
     height: 40px;
 }
-
+.margins:last-child{
+    margin-right: 0;
+}
+.our-team-socials-a{
+    width: 100%;
+    min-height: 100%;
+    color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .our-team-socials{
-    padding: 0;
-    cursor: pointer;
-    fill: #4D5AE5;
+    fill: currentColor;
 }
-
-.our-team-socials:hover{
-    fill: #31D0AA;
-}
-
-.our-team-socials:focus{
-    fill: #31D0AA;
+.our-team-socials-a:hover,
+.our-team-socials-a:focus{
+    color: #31D0AA;
 }
 
 .name{
@@ -491,36 +496,27 @@ li>a:hover{
 .i-d-k{
     width: 168px;
     height: 88px;
-    margin-right: 20px;
-    box-sizing: border-box;
+}
+.i-d-k:not(:last-child) {
+    margin-right: 24px;
+}
+.logo-a {
+    width: 100%;
+    min-height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #8E8F99;
 }
-
 .logo{
-    fill: #AFB1B8;
-    cursor: pointer;
+    fill: currentColor;
 }
-
-.logo:hover{
-    fill: #4D5AE5;
-}
-
-.logo:focus{
-    fill: #4D5AE5;
-}
-
-.i-d-k:hover{
+.logo-a:hover,
+.logo-a:focus{
     border: 1px solid #4D5AE5;
-}
-
-.i-d-k{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color:  #4D5AE5;
 }
 
 
@@ -577,26 +573,33 @@ footer{
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+    margin-bottom: 16px;
 }
 
-.our-team-socials-footer{
-    fill: rgba(255, 255, 255, 0.1);
-    margin-top: 16px;
-    margin-right: 24px;
-}   
-
-.our-team-socials-footer:hover{
-    fill: #31D0AA;
-    cursor: pointer;
+.removing-list-style-footer{
+    list-style: none;
 }
 
-.our-team-socials-footer:focus{
-    fill: #31D0AA;
-    cursor: pointer;
-}
-
-.margins1{
+.margins-footer{
+    margin-right: 16px;
     width: 40px;
     height: 40px;
-    margin-right: 16px;
+}
+.margins-footer:last-child{
+    margin-right: 0;
+}
+.our-team-socials-a-footer{
+    width: 100%;
+    min-height: 100%;
+    color: rgba(255, 255, 255, 0.1);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-team-socials{
+    fill: currentColor;
+}
+.our-team-socials-a-footer:hover,
+.our-team-socials-a-footer:focus{
+    color: #31D0AA;
 }
