@@ -244,11 +244,9 @@ li>a:hover{
     width: 264px;
     height: 112px;
     margin-bottom: 8px;
-    align-self: center;
-}
-
-.about-us-another{
-    padding: 24px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .web{
@@ -303,6 +301,7 @@ li>a:hover{
     display: flex;
     flex-direction: column;
 }
+    
 
 .name-of-product{
     font-weight: 600;
