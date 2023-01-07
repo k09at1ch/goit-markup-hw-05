@@ -366,11 +366,14 @@
             </div>
         </div>
     </footer> 
-    <div class="is-hidden">
-        <div class="modal" data-modal>
-            <svg width="24px" height="24px" class="button-close" data-modal-close>
-                <use href="./images/close.svg#all"></use>
-            </svg>
+    <div class="backdrop" class="is-hidden" data-modal>
+            <div class="modal" data-modal>
+                <button type="button" class="button-close" data-modal-close>
+                    <svg class>
+                        <use href="/images/close.svg#all"></use>
+                    </svg>
+                </button>   
+            </div>
         </div>
     </div>
     <script src="/modal.js"></script>
